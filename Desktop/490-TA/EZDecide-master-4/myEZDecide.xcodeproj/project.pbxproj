@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26B20D1E1E86F5E000678D91 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B20D1D1E86F5E000678D91 /* DatePickerDialog.swift */; };
+		535FA59C1E6C9676005793EF /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535FA59B1E6C9676005793EF /* AlertHelper.swift */; };
+		535FA59E1E6C9F27005793EF /* ValidateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535FA59D1E6C9F27005793EF /* ValidateHelper.swift */; };
+		53B8AEF91E5E33100075FF61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B8AEF81E5E33100075FF61 /* AppDelegate.swift */; };
+		53B8AEFB1E5E33100075FF61 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B8AEFA1E5E33100075FF61 /* LoginViewController.swift */; };
+		53B8AEFE1E5E33100075FF61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B8AEFC1E5E33100075FF61 /* Main.storyboard */; };
+		53B8AF001E5E33100075FF61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53B8AEFF1E5E33100075FF61 /* Assets.xcassets */; };
+		53B8AF031E5E33100075FF61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B8AF011E5E33100075FF61 /* LaunchScreen.storyboard */; };
+		53B8AF0B1E5E33CB0075FF61 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53B8AF0A1E5E33CB0075FF61 /* GoogleService-Info.plist */; };
+		53B8AF0D1E5E36DB0075FF61 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B8AF0C1E5E36DB0075FF61 /* FBSDKLoginKit.framework */; };
+		53B8AF0F1E5E3D7B0075FF61 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B8AF0E1E5E3D7B0075FF61 /* FBSDKCoreKit.framework */; };
+		53B8AF121E5E47090075FF61 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B8AF111E5E47090075FF61 /* MainViewController.swift */; };
+		53B8AF141E5E50880075FF61 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B8AF131E5E50880075FF61 /* SignUpViewController.swift */; };
+		53B8AF161E5E6D400075FF61 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B8AF151E5E6D400075FF61 /* ForgotPasswordViewController.swift */; };
+		53B8AF181E5E99DF0075FF61 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B8AF171E5E99DF0075FF61 /* NewPostViewController.swift */; };
+		53B8AF1D1E5F33AE0075FF61 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B8AF1C1E5F33AE0075FF61 /* PostTableViewCell.swift */; };
+		53B8AF201E5F3C150075FF61 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B8AF1F1E5F3C150075FF61 /* Post.swift */; };
+		53B8AF261E5F9B360075FF61 /* PostDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B8AF251E5F9B360075FF61 /* PostDetailTableViewCell.swift */; };
+		53B8AF281E5F9B640075FF61 /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B8AF271E5F9B640075FF61 /* PostDetailViewController.swift */; };
+		53B8AF4E1E60AA230075FF61 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B8AF4D1E60AA230075FF61 /* CommentTableViewCell.swift */; };
+		5BC27A5FD720D218A3A8CE8B /* Pods_myEZDecide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48DBE6B78BFE41FE7D9202AF /* Pods_myEZDecide.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D3C87CB77DE8CA5FEE07B1C /* Pods-myEZDecide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myEZDecide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myEZDecide/Pods-myEZDecide.debug.xcconfig"; sourceTree = "<group>"; };
+		26B20D1D1E86F5E000678D91 /* DatePickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerDialog.swift; sourceTree = "<group>"; };
+		48DBE6B78BFE41FE7D9202AF /* Pods_myEZDecide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myEZDecide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4977D812B620A3371C4BDEF5 /* Pods-myEZDecide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myEZDecide.release.xcconfig"; path = "Pods/Target Support Files/Pods-myEZDecide/Pods-myEZDecide.release.xcconfig"; sourceTree = "<group>"; };
+		535FA59B1E6C9676005793EF /* AlertHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		535FA59D1E6C9F27005793EF /* ValidateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateHelper.swift; sourceTree = "<group>"; };
+		53B8AEF51E5E33100075FF61 /* myEZDecide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myEZDecide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B8AEF81E5E33100075FF61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53B8AEFA1E5E33100075FF61 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		53B8AEFD1E5E33100075FF61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53B8AEFF1E5E33100075FF61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53B8AF021E5E33100075FF61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53B8AF041E5E33100075FF61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53B8AF0A1E5E33CB0075FF61 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		53B8AF0C1E5E36DB0075FF61 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		53B8AF0E1E5E3D7B0075FF61 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		53B8AF111E5E47090075FF61 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		53B8AF131E5E50880075FF61 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		53B8AF151E5E6D400075FF61 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		53B8AF171E5E99DF0075FF61 /* NewPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
+		53B8AF1C1E5F33AE0075FF61 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		53B8AF1F1E5F3C150075FF61 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		53B8AF251E5F9B360075FF61 /* PostDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailTableViewCell.swift; sourceTree = "<group>"; };
+		53B8AF271E5F9B640075FF61 /* PostDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
+		53B8AF4D1E60AA230075FF61 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53B8AEF21E5E33100075FF61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B8AF0D1E5E36DB0075FF61 /* FBSDKLoginKit.framework in Frameworks */,
+				53B8AF0F1E5E3D7B0075FF61 /* FBSDKCoreKit.framework in Frameworks */,
+				5BC27A5FD720D218A3A8CE8B /* Pods_myEZDecide.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16E013E0345225F7469BAC6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D3C87CB77DE8CA5FEE07B1C /* Pods-myEZDecide.debug.xcconfig */,
+				4977D812B620A3371C4BDEF5 /* Pods-myEZDecide.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		26B20D1C1E86F5C900678D91 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				26B20D1D1E86F5E000678D91 /* DatePickerDialog.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		535FA59A1E6C9632005793EF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				535FA59B1E6C9676005793EF /* AlertHelper.swift */,
+				535FA59D1E6C9F27005793EF /* ValidateHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		53B8AEEC1E5E33100075FF61 = {
+			isa = PBXGroup;
+			children = (
+				53B8AEF71E5E33100075FF61 /* myEZDecide */,
+				53B8AEF61E5E33100075FF61 /* Products */,
+				16E013E0345225F7469BAC6D /* Pods */,
+				D0D62A93E739D519D2E45D63 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53B8AEF61E5E33100075FF61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53B8AEF51E5E33100075FF61 /* myEZDecide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53B8AEF71E5E33100075FF61 /* myEZDecide */ = {
+			isa = PBXGroup;
+			children = (
+				26B20D1C1E86F5C900678D91 /* Sources */,
+				535FA59A1E6C9632005793EF /* Helpers */,
+				53B8AF1E1E5F3C030075FF61 /* Models */,
+				53B8AF101E5E46E60075FF61 /* View Controllers */,
+				53B8AF191E5EA3360075FF61 /* Views */,
+				53B8AEF81E5E33100075FF61 /* AppDelegate.swift */,
+				53B8AEFC1E5E33100075FF61 /* Main.storyboard */,
+				53B8AEFF1E5E33100075FF61 /* Assets.xcassets */,
+				53B8AF011E5E33100075FF61 /* LaunchScreen.storyboard */,
+				53B8AF041E5E33100075FF61 /* Info.plist */,
+				53B8AF0A1E5E33CB0075FF61 /* GoogleService-Info.plist */,
+			);
+			path = myEZDecide;
+			sourceTree = "<group>";
+		};
+		53B8AF101E5E46E60075FF61 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				53B8AEFA1E5E33100075FF61 /* LoginViewController.swift */,
+				53B8AF111E5E47090075FF61 /* MainViewController.swift */,
+				53B8AF131E5E50880075FF61 /* SignUpViewController.swift */,
+				53B8AF151E5E6D400075FF61 /* ForgotPasswordViewController.swift */,
+				53B8AF171E5E99DF0075FF61 /* NewPostViewController.swift */,
+				53B8AF271E5F9B640075FF61 /* PostDetailViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		53B8AF191E5EA3360075FF61 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				53B8AF1C1E5F33AE0075FF61 /* PostTableViewCell.swift */,
+				53B8AF251E5F9B360075FF61 /* PostDetailTableViewCell.swift */,
+				53B8AF4D1E60AA230075FF61 /* CommentTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		53B8AF1E1E5F3C030075FF61 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				53B8AF1F1E5F3C150075FF61 /* Post.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D0D62A93E739D519D2E45D63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53B8AF0E1E5E3D7B0075FF61 /* FBSDKCoreKit.framework */,
+				53B8AF0C1E5E36DB0075FF61 /* FBSDKLoginKit.framework */,
+				48DBE6B78BFE41FE7D9202AF /* Pods_myEZDecide.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53B8AEF41E5E33100075FF61 /* myEZDecide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B8AF071E5E33100075FF61 /* Build configuration list for PBXNativeTarget "myEZDecide" */;
+			buildPhases = (
+				B46C2A14758414E7EB5AD9E8 /* [CP] Check Pods Manifest.lock */,
+				53B8AEF11E5E33100075FF61 /* Sources */,
+				53B8AEF21E5E33100075FF61 /* Frameworks */,
+				53B8AEF31E5E33100075FF61 /* Resources */,
+				88CC9D5DD4F23E5A25B7EB1E /* [CP] Embed Pods Frameworks */,
+				69824A2C138E67220F77D187 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myEZDecide;
+			productName = myEZDecide;
+			productReference = 53B8AEF51E5E33100075FF61 /* myEZDecide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53B8AEED1E5E33100075FF61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = liangjiapei;
+				TargetAttributes = {
+					53B8AEF41E5E33100075FF61 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RBV2R5Z394;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 53B8AEF01E5E33100075FF61 /* Build configuration list for PBXProject "myEZDecide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53B8AEEC1E5E33100075FF61;
+			productRefGroup = 53B8AEF61E5E33100075FF61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53B8AEF41E5E33100075FF61 /* myEZDecide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53B8AEF31E5E33100075FF61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B8AF031E5E33100075FF61 /* LaunchScreen.storyboard in Resources */,
+				53B8AF0B1E5E33CB0075FF61 /* GoogleService-Info.plist in Resources */,
+				53B8AF001E5E33100075FF61 /* Assets.xcassets in Resources */,
+				53B8AEFE1E5E33100075FF61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69824A2C138E67220F77D187 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myEZDecide/Pods-myEZDecide-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88CC9D5DD4F23E5A25B7EB1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myEZDecide/Pods-myEZDecide-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B46C2A14758414E7EB5AD9E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53B8AEF11E5E33100075FF61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				535FA59C1E6C9676005793EF /* AlertHelper.swift in Sources */,
+				53B8AF4E1E60AA230075FF61 /* CommentTableViewCell.swift in Sources */,
+				53B8AF1D1E5F33AE0075FF61 /* PostTableViewCell.swift in Sources */,
+				53B8AF121E5E47090075FF61 /* MainViewController.swift in Sources */,
+				53B8AF161E5E6D400075FF61 /* ForgotPasswordViewController.swift in Sources */,
+				26B20D1E1E86F5E000678D91 /* DatePickerDialog.swift in Sources */,
+				53B8AF201E5F3C150075FF61 /* Post.swift in Sources */,
+				53B8AF261E5F9B360075FF61 /* PostDetailTableViewCell.swift in Sources */,
+				53B8AEFB1E5E33100075FF61 /* LoginViewController.swift in Sources */,
+				53B8AF141E5E50880075FF61 /* SignUpViewController.swift in Sources */,
+				53B8AF281E5F9B640075FF61 /* PostDetailViewController.swift in Sources */,
+				535FA59E1E6C9F27005793EF /* ValidateHelper.swift in Sources */,
+				53B8AEF91E5E33100075FF61 /* AppDelegate.swift in Sources */,
+				53B8AF181E5E99DF0075FF61 /* NewPostViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53B8AEFC1E5E33100075FF61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53B8AEFD1E5E33100075FF61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53B8AF011E5E33100075FF61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53B8AF021E5E33100075FF61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53B8AF051E5E33100075FF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53B8AF061E5E33100075FF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53B8AF081E5E33100075FF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D3C87CB77DE8CA5FEE07B1C /* Pods-myEZDecide.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RBV2R5Z394;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"~/Documents/FacebookSDK",
+				);
+				INFOPLIST_FILE = myEZDecide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liangjiapei.myEZDecide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		53B8AF091E5E33100075FF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4977D812B620A3371C4BDEF5 /* Pods-myEZDecide.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RBV2R5Z394;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"~/Documents/FacebookSDK",
+				);
+				INFOPLIST_FILE = myEZDecide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liangjiapei.myEZDecide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53B8AEF01E5E33100075FF61 /* Build configuration list for PBXProject "myEZDecide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B8AF051E5E33100075FF61 /* Debug */,
+				53B8AF061E5E33100075FF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53B8AF071E5E33100075FF61 /* Build configuration list for PBXNativeTarget "myEZDecide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B8AF081E5E33100075FF61 /* Debug */,
+				53B8AF091E5E33100075FF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53B8AEED1E5E33100075FF61 /* Project object */;
+}
