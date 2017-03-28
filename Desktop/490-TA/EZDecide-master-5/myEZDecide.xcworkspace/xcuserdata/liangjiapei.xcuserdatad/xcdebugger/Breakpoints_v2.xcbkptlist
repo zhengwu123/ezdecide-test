@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "myEZDecide/Post.swift"
+            timestampString = "512074590.209269"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "init(dictionary:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "myEZDecide/PostTableViewCell.swift"
+            timestampString = "512422919.335293"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "PostTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "myEZDecide.PostTableViewCell.post.didset : Swift.ImplicitlyUnwrappedOptional&lt;myEZDecide.Post&gt;"
+                  moduleName = "myEZDecide"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liangjiapei/school_work/2017_Spring/EZDecide/myEZDecide/PostTableViewCell.swift"
+                  timestampString = "512351705.456934"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "4545">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "myEZDecide.PostTableViewCell.(post.didset : Swift.ImplicitlyUnwrappedOptional&lt;myEZDecide.Post&gt;).(closure #1)"
+                  moduleName = "myEZDecide"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liangjiapei/school_work/2017_Spring/EZDecide/myEZDecide/PostTableViewCell.swift"
+                  timestampString = "512351705.458504"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "1318">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
