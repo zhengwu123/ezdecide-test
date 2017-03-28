@@ -9,9 +9,41 @@
 import UIKit
 import Firebase
 import MBProgressHUD
+
+extension String
+{
+    subscript (i: Int) -> Character {
+        return self[self.index(self.startIndex, offsetBy: i)]
+    }
+    
+    // for convenience we should include String return
+    subscript (i: Int) -> String {
+        return String(self[i] as Character)
+    }
+    
+    subscript (r: Range<Int>) -> String {
+        let start = self.index(self.startIndex, offsetBy: r.lowerBound)
+        let end = self.index(self.startIndex, offsetBy: r.upperBound)
+        
+        return self[start...end]
+    }
+}
+
 class SignUpViewController: UIViewController {
 
-    
+    @IBAction func onGenderSelect(_ sender: Any) {
+        self.gender = genderSegment.titleForSegment(at: genderSegment.selectedSegmentIndex)
+        print(gender)
+    }
+    @IBOutlet var genderSegment: UISegmentedControl!
+    @IBOutlet var usernameTextField: UITextField!
+    var birthday: String!
+    var ZodiacConstellaton: String!
+    var month: Int!
+    var day: Int!
+    var gender: String!
+    var username: String!
+    var ref: FIRDatabaseReference!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var confirmPasswordTextField: UITextField!
@@ -26,8 +58,18 @@ class SignUpViewController: UIViewController {
             if(date != nil){
             formatedDate = (date?.description)!
                 let index = formatedDate.index(formatedDate.startIndex, offsetBy: 10)
-                
-            self.birthdayText.text = "\(formatedDate.substring(to: index))"
+                self.birthday = formatedDate.substring(to: index)
+            self.birthdayText.text = "\(self.birthday!)"
+                var s = self.birthday!
+        
+                s = s[5..<9]
+                self.month = Int(s[0..<1])
+                self.day = Int(s[3..<4])
+                // Access the string by the range.
+             //   let substring = s[r]
+               print(s[3..<4])
+                self.ZodiacConstellaton = self.Zodiac(month: self.month, day: self.day)
+                print(self.ZodiacConstellaton)
             }
     }
         dismissKeyboard()
@@ -81,6 +123,17 @@ class SignUpViewController: UIViewController {
                 
                 if user != nil {
                     print("Successfully signed up")
+                    let uid = user?.uid
+                     let username = self.usernameTextField.text
+                    var urgender:String
+                    if(self.gender==nil){
+                    urgender = "Male"
+                    }
+                    else{
+                        urgender = self.gender
+                    }
+                    self.ref = FIRDatabase.database().reference()
+                    self.ref.child("users").child((user?.uid)!).setValue(["uid": uid,"username": username,"zodiac":self.ZodiacConstellaton,"birthday":self.birthday,"gender":urgender,"profileimageURL":"defaultIsEmpty"])
                     
                     user?.sendEmailVerification(completion: { (error) in
                         
@@ -112,8 +165,38 @@ class SignUpViewController: UIViewController {
         self.view.endEditing(true)
         
     }
-    
+    func Zodiac(month:Int, day: Int)->String{
+        
+        switch (month, day) {
+        case (3, 21...31), (4, 1...19):
+            return "Aries"
+        case (4, 20...30), (5, 1...20):
+            return "Taurus"
+        case (5, 21...31), (6, 1...20):
+            return "Gemini"
+        case (6, 21...30), (7, 1...22):
+            return "Cancer"
+        case (7, 23...31), (8, 1...22):
+            return "Leo"
+        case (8, 23...31), (9, 1...22):
+            return "Virgo"
+        case (9, 23...30), (10, 1...22):
+            return "Libra"
+        case (10, 23...31), (11, 1...21):
+            return "Scorpio"
+        case (11, 22...30), (12, 1...21):
+            return "Sagittarius"
+        case (12, 22...31), (1, 1...19):
+            return "Capricorn"
+        case (1, 20...31), (2, 1...18):
+            return "Aquarius"
+        case (2, 19...29), (3, 1...20):
+            return "Pisces"
+        default:
+            return "Undefined"
 
+    }
+    }
     /*
     // MARK: - Navigation
 
@@ -123,5 +206,6 @@ class SignUpViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+
 
 }

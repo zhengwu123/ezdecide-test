@@ -366,10 +366,13 @@
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="for-Zn-uuy">
                                         <rect key="frame" x="0.0" y="383" width="301" height="29"/>
                                         <segments>
-                                            <segment title="First"/>
-                                            <segment title="Second"/>
+                                            <segment title="Male"/>
+                                            <segment title="Female"/>
                                         </segments>
                                         <color key="tintColor" red="0.38195684549999998" green="0.4060428143" blue="0.17836359139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="onGenderSelect:" destination="d9L-wQ-Xwm" eventType="valueChanged" id="8Iu-kl-yGg"/>
+                                        </connections>
                                     </segmentedControl>
                                 </subviews>
                                 <constraints>
@@ -404,8 +407,10 @@
                         <outlet property="birthdayText" destination="qtT-vo-FwS" id="wal-54-z2F"/>
                         <outlet property="confirmPasswordTextField" destination="4ur-Hb-g1z" id="uLW-pr-Mlc"/>
                         <outlet property="emailTextField" destination="JzS-7h-PxM" id="l8W-1e-50p"/>
+                        <outlet property="genderSegment" destination="for-Zn-uuy" id="f2p-3m-gWc"/>
                         <outlet property="passwordTextField" destination="v99-5q-Pzw" id="XHN-7V-Lge"/>
                         <outlet property="signupButton" destination="AlQ-3i-KZB" id="SNh-tU-gQE"/>
+                        <outlet property="usernameTextField" destination="8tF-qm-apf" id="3yg-GN-jwK"/>
                         <segue destination="6sh-99-kFq" kind="presentation" identifier="signUpSuccessSegue" id="A6j-jy-YNx"/>
                     </connections>
                 </viewController>
